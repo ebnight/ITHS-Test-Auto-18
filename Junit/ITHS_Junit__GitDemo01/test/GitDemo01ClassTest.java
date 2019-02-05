@@ -22,4 +22,12 @@ public class GitDemo01ClassTest {
         int result= myObject.alwayszero(10, 5);
         assertTrue(result==0);
     }
+
+    @Test
+    public void test_alwayszero_normalCase2() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(99, 0);
+        assertTrue(result==0);
+    }
+
 }
