@@ -36,6 +36,13 @@ public class GitDemo01ClassTest {
         int result= myObject.alwayszero(99, 0);
         assertTrue(result==0);
     }
+    @Test
+    public void test_lady_hiccups(){
+        GitDemo01Class diafragm =new GitDemo01Class ();
+        int result= diafragm.alwayszero(42, 43);
+        assertTrue(result==0);
+
+    }
 
     @Test
     public void test_alwayszero_normalCase3() {
@@ -47,6 +54,12 @@ public class GitDemo01ClassTest {
     public void shahzad() {
         GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(33, 33);
+        assertTrue(result==0);
+    }
+    @Test
+    public void test_lisamarie() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(60, 30);
         assertTrue(result==0);
     }
 }
