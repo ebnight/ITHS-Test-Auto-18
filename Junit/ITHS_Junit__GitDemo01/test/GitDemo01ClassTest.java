@@ -17,6 +17,12 @@ public class GitDemo01ClassTest {
     }
 
     @Test
+    public void test_Tony() {
+        GitDemo01Class myObject = new GitDemo01Class();
+        System.out.println("Fantastiskt");
+    }
+
+    @Test
     public void test_alwayszero_normalCase() {
         GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(10, 5);
