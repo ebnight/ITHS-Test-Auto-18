@@ -62,4 +62,9 @@ public class GitDemo01ClassTest {
         int result= myObject.alwayszero(60, 30);
         assertTrue(result==0);
     }
+
+    @Test
+    public void test_ferdrikNiemi() {
+        System.out.println("Hallåjhej");
+    }
 }
