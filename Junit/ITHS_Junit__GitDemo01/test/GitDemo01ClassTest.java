@@ -69,9 +69,10 @@ public class GitDemo01ClassTest {
     }
     @Test
     public void test_johan(){
-        GitDemo01Class myObject = new GitDemo01Class();
+        System.out.println("SHAZAD STAHP!!!");
+/*        GitDemo01Class myObject = new GitDemo01Class();
         int result = myObject.alwayszero(1900, 1900);
         assertTrue(result == 0);
-    }
+  */  }
 
 }
