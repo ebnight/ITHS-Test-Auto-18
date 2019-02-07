@@ -1,3 +1,4 @@
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -37,9 +38,9 @@ public class GitDemo01ClassTest {
     }
 
     @Test
-    public void testAddNormalCase(){
-        GitDemo01Class myObject = new GitDemo01Class();
-        int result = myObject.add(1890, 4);
-        assertTrue(result == 1894);
+    public void shahzad() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(33, 33);
+        assertTrue(result==0);
     }
 }
