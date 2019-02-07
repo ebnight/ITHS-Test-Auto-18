@@ -64,10 +64,8 @@ public class GitDemo01ClassTest {
     }
 
     @Test
-    public void test_peter(){
-        GitDemo01Class myObject = new GitDemo01Class();
-        int result = myObject.alwayszero(1900, 1900);
-        assertTrue(result == 0);
+    public void test_ferdrikNiemi() {
+        System.out.println("Hallåjhej");
     }
     @Test
     public void test_johan(){
